@@ -1,0 +1,60 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+body {
+    background-color: #000a14;
+    color: white;
+    font-family: Courier New;
+    width: 100%
+}
+html, body {
+max-width: 100%;
+overflow-x: hidden;
+}
+h1 {
+    font-family: Pixelify Sans;
+    color: mediumslateblue;
+  }
+h2 {
+    font-family: Pixelify Sans;
+    color: mediumslateblue;
+  }
+h3 {
+    font-family: Pixelify Sans;
+    color: mediumslateblue;
+  }
+  
+/* change the background color */
+.sticky-custom {
+    background-color: purple;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: hotpink;
+}
+  
+.custom-footer {
+    background-color: indigo;
+  }
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: red;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: hotpink;
+}
