@@ -1,33 +1,29 @@
-/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
-   HTML content. To learn how to do something, just try searching Google for questions like
-   "how to change link color." */
-
 body {
     background-color: #000a14;
     color: white;
-    font-family: Courier New;
+    font-family: 'Courier New', Courier, monospace;
     width: 100%
 }
+
+h1, h2, h3{
+    font-family: 'Pixelify Sans';
+    color: purple;
+}
+
+p, h4, h5, h6 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 html, body {
 max-width: 100%;
 overflow-x: hidden;
 }
-h1 {
-    font-family: Pixelify Sans;
-    color: mediumslateblue;
-  }
-h2 {
-    font-family: Pixelify Sans;
-    color: mediumslateblue;
-  }
-h3 {
-    font-family: Pixelify Sans;
-    color: mediumslateblue;
-  }
-  
-/* change the background color */
-.sticky-custom {
-    background-color: purple;
+
+hr {
+    border: none;
+    background-color: #00305f;
+    height: 0.4rem;
 }
 
 /* change the color of active or hovered links */
@@ -36,25 +32,36 @@ h3 {
 .navbar-custom .nav-item:hover .nav-link {
     color: hotpink;
 }
-  
-.custom-footer {
+
+ul.dropdown-menu>li {
+    text-align: center;
+}
+
+.card{
+    background-image: url('bg.gif'); 
+    background-size: cover; 
+    background-position: center;
+    text-align: center;
+    border-style: dashed;
+    border-width: 0.25rem;
+    border-color: hotpink;
+    border-radius: 1rem;
+}
+
+.card-icon{
+    width: 5em;
+    height: auto;
+}
+nav, .footer, .dropdown-menu{
     background-color: indigo;
   }
-/* unvisited link */
-a:link {
-    color: red;
+
+/* (un)visited link */
+a:link, a:visited{
+    color: #FFBA29;
 }
 
-a:visited {
-    color: red;
-}
-
-/* mouse over link */
-a:hover {
-    color: hotpink;
-}
-
-/* selected link */
-a:active {
+/* mouse over and select link */
+a:hover, a:active {
     color: hotpink;
 }
