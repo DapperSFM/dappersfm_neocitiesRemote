@@ -48,6 +48,10 @@ ul.dropdown-menu>li {
     border-radius: 1rem;
 }
 
+.card-title{
+    color: white;
+}
+
 .card-icon{
     width: 5em;
     height: auto;
