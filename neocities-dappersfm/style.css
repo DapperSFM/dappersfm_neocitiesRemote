@@ -2,7 +2,8 @@ body {
     background-color: #000a14;
     color: white;
     font-family: 'Courier New', Courier, monospace;
-    width: 100%
+    width: 100%;
+    text-align: center;
 }
 
 h1, h2, h3{
