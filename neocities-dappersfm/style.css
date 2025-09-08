@@ -7,8 +7,8 @@ body {
 }
 
 h1, h2, h3{
-    font-family: 'Pixelify Sans';
-    color: purple;
+    font-family: "Fredericka the Great", serif;
+    color: hotpink;
 }
 
 p, h4, h5, h6 {
@@ -17,8 +17,51 @@ p, h4, h5, h6 {
 }
 
 html, body {
-max-width: 100%;
-overflow-x: hidden;
+    max-width: 100%;
+    overflow-x: hidden;
+    align-content: center;
+}
+
+.box-main{
+    background-image: url(''); 
+    background-size: cover; 
+    background-position: center;
+    text-align: center;
+    border-style: dashed;
+    border-width: 0.25rem;
+    border-color: purple;
+    border-radius: 1rem;
+    max-width: 750px;
+    padding: 30px 50px;
+    margin: 30px;
+}
+
+.box-sub-1{
+    background-image: url(''); 
+    background-size: cover; 
+    background-position: center;
+    text-align: center;
+    border-style: dashed;
+    border-width: 0.25rem;
+    border-color: rgb(197, 65, 131);
+    border-radius: 1rem;
+    width: 200px;
+    padding: 10px 50px 30px;
+    margin: 30px 0;
+}
+
+.box-sub-2{
+    background-image: url(''); 
+    background-size: cover; 
+    background-position: center;
+    text-align: center;
+    border-style: dashed;
+    border-width: 0.25rem;
+    border-color: rgb(0, 0, 133);
+    border-radius: 1rem;
+    width: 200px;
+    padding: 10px 50px 30px;
+    margin: 30px 0;
 }
 
 hr {
@@ -31,7 +74,7 @@ hr {
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:focus .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
-    color: hotpink;
+    color: red;
 }
 
 ul.dropdown-menu>li {
@@ -68,5 +111,5 @@ a:link, a:visited{
 
 /* mouse over and select link */
 a:hover, a:active {
-    color: hotpink;
+    color: red;
 }
